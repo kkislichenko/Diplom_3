@@ -1,0 +1,8 @@
+page/object/LoginPage.class
+RandomData.class
+page/object/ConstructorPage.class
+page/object/RegistrationPage.class
+page/object/PersonalAccountPage.class
+page/object/Header.class
+DeleteUser.class
+page/object/PasswordRecoveryPage.class

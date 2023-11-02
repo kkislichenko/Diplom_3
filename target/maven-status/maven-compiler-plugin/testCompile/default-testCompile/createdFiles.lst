@@ -1,0 +1,7 @@
+Configuration.class
+RegistrationTest.class
+RegisterAndLogin.class
+ConstructorWithAuthTest.class
+PersonalAccountTest.class
+LoginTest.class
+ConstructorWithoutAuthTest.class

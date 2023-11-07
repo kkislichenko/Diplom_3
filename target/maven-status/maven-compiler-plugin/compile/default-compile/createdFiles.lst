@@ -1,0 +1,11 @@
+page/object/LoginPage.class
+RandomData.class
+page/object/ConstructorPage.class
+api/UserLogin.class
+api/UserResponses.class
+page/object/RegistrationPage.class
+page/object/PersonalAccountPage.class
+page/object/Header.class
+api/UserRegistration.class
+page/object/EnvoirmentConfiguration.class
+page/object/PasswordRecoveryPage.class

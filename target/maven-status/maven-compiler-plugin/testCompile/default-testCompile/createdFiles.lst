@@ -1,0 +1,7 @@
+RegistrationTest.class
+DriverConfiguration.class
+ConstructorWithAuthTest.class
+PersonalAccountTest.class
+LoginTest.class
+ConstructorWithoutAuthTest.class
+RegisterLoginDeleteUser.class

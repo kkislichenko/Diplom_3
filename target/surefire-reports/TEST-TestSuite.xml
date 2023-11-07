@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="84.422" tests="14" errors="0" skipped="0" failures="13">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ekaterinakislicenko/Diplom/Diplom_3/target/test-classes:/Users/ekaterinakislicenko/Diplom/Diplom_3/target/classes:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-java/4.11.0/selenium-java-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-api/4.11.0/selenium-api-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.11.0/selenium-chrome-driver-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ekaterinakislicenko/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.11.0/selenium-chromium-driver-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-json/4.11.0/selenium-json-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.11.0/selenium-manager-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.11.0/selenium-devtools-v113-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.11.0/selenium-devtools-v114-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v115/4.11.0/selenium-devtools-v115-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.11.0/selenium-devtools-v85-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.11.0/selenium-edge-driver-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.11.0/selenium-firefox-driver-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.11.0/selenium-ie-driver-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.11.0/selenium-remote-driver-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-codec-http/4.1.92.Final/netty-codec-http-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-codec/4.1.92.Final/netty-codec-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-handler/4.1.92.Final/netty-handler-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-common/4.1.92.Final/netty-common-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.92.Final/netty-transport-classes-epoll-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.92.Final/netty-transport-classes-kqueue-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport-native-epoll/4.1.92.Final/netty-transport-native-epoll-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.92.Final/netty-transport-native-kqueue-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.92.Final/netty-transport-native-unix-common-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport/4.1.92.Final/netty-transport-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-api/1.26.0/opentelemetry-api-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-context/1.26.0/opentelemetry-context-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.26.0/opentelemetry-exporter-logging-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.26.0/opentelemetry-sdk-metrics-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.26.0-alpha/opentelemetry-extension-incubator-1.26.0-alpha.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.26.0-alpha/opentelemetry-sdk-logs-1.26.0-alpha.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.26.0-alpha/opentelemetry-api-logs-1.26.0-alpha.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.26.0-alpha/opentelemetry-api-events-1.26.0-alpha.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.26.0/opentelemetry-sdk-common-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.26.0/opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.26.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.26.0/opentelemetry-sdk-trace-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.26.0/opentelemetry-sdk-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.26.0-alpha/opentelemetry-semconv-1.26.0-alpha.jar:/Users/ekaterinakislicenko/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ekaterinakislicenko/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/ekaterinakislicenko/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/ekaterinakislicenko/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/ekaterinakislicenko/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/ekaterinakislicenko/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.11.0/selenium-safari-driver-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-support/4.11.0/selenium-support-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-http-jdk-client/4.11.0/selenium-http-jdk-client-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-http/4.11.0/selenium-http-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/ekaterinakislicenko/.m2/repository/io/github/bonigarcia/webdrivermanager/5.4.1/webdrivermanager-5.4.1.jar:/Users/ekaterinakislicenko/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/ekaterinakislicenko/.m2/repository/com/github/docker-java/docker-java/3.3.2/docker-java-3.3.2.jar:/Users/ekaterinakislicenko/.m2/repository/com/github/docker-java/docker-java-core/3.3.2/docker-java-core-3.3.2.jar:/Users/ekaterinakislicenko/.m2/repository/com/github/docker-java/docker-java-api/3.3.2/docker-java-api-3.3.2.jar:/Users/ekaterinakislicenko/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/ekaterinakislicenko/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/ekaterinakislicenko/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/ekaterinakislicenko/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/ekaterinakislicenko/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/ekaterinakislicenko/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/ekaterinakislicenko/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/ekaterinakislicenko/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.2/docker-java-transport-httpclient5-3.3.2.jar:/Users/ekaterinakislicenko/.m2/repository/com/github/docker-java/docker-java-transport/3.3.2/docker-java-transport-3.3.2.jar:/Users/ekaterinakislicenko/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/ekaterinakislicenko/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/ekaterinakislicenko/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/ekaterinakislicenko/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ekaterinakislicenko/.m2/repository/io/qameta/allure/allure-junit4/2.24.0/allure-junit4-2.24.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/qameta/allure/allure-test-filter/2.24.0/allure-test-filter-2.24.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ekaterinakislicenko/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ekaterinakislicenko/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/ekaterinakislicenko/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ekaterinakislicenko/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ekaterinakislicenko/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/ekaterinakislicenko/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/ekaterinakislicenko/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/ekaterinakislicenko/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/ekaterinakislicenko/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/ekaterinakislicenko/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/ekaterinakislicenko/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/ekaterinakislicenko/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/ekaterinakislicenko/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/ekaterinakislicenko/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ekaterinakislicenko/Diplom/Diplom_3/target/surefire/surefirebooter14271285147286864672.jar /Users/ekaterinakislicenko/Diplom/Diplom_3/target/surefire 2023-11-07T12-51-07_839-jvmRun1 surefire3302166691983022929tmp surefire_01527610277377058418tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ekaterinakislicenko/Diplom/Diplom_3/target/test-classes:/Users/ekaterinakislicenko/Diplom/Diplom_3/target/classes:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-java/4.11.0/selenium-java-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-api/4.11.0/selenium-api-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.11.0/selenium-chrome-driver-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ekaterinakislicenko/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.11.0/selenium-chromium-driver-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-json/4.11.0/selenium-json-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.11.0/selenium-manager-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.11.0/selenium-devtools-v113-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.11.0/selenium-devtools-v114-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v115/4.11.0/selenium-devtools-v115-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.11.0/selenium-devtools-v85-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.11.0/selenium-edge-driver-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.11.0/selenium-firefox-driver-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.11.0/selenium-ie-driver-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.11.0/selenium-remote-driver-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-codec-http/4.1.92.Final/netty-codec-http-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-codec/4.1.92.Final/netty-codec-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-handler/4.1.92.Final/netty-handler-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-common/4.1.92.Final/netty-common-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.92.Final/netty-transport-classes-epoll-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.92.Final/netty-transport-classes-kqueue-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport-native-epoll/4.1.92.Final/netty-transport-native-epoll-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.92.Final/netty-transport-native-kqueue-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.92.Final/netty-transport-native-unix-common-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport/4.1.92.Final/netty-transport-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-api/1.26.0/opentelemetry-api-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-context/1.26.0/opentelemetry-context-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.26.0/opentelemetry-exporter-logging-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.26.0/opentelemetry-sdk-metrics-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.26.0-alpha/opentelemetry-extension-incubator-1.26.0-alpha.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.26.0-alpha/opentelemetry-sdk-logs-1.26.0-alpha.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.26.0-alpha/opentelemetry-api-logs-1.26.0-alpha.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.26.0-alpha/opentelemetry-api-events-1.26.0-alpha.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.26.0/opentelemetry-sdk-common-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.26.0/opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.26.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.26.0/opentelemetry-sdk-trace-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.26.0/opentelemetry-sdk-1.26.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.26.0-alpha/opentelemetry-semconv-1.26.0-alpha.jar:/Users/ekaterinakislicenko/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ekaterinakislicenko/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/ekaterinakislicenko/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/ekaterinakislicenko/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/ekaterinakislicenko/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/ekaterinakislicenko/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/ekaterinakislicenko/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.11.0/selenium-safari-driver-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-support/4.11.0/selenium-support-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-http-jdk-client/4.11.0/selenium-http-jdk-client-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/ekaterinakislicenko/.m2/repository/org/seleniumhq/selenium/selenium-http/4.11.0/selenium-http-4.11.0.jar:/Users/ekaterinakislicenko/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/ekaterinakislicenko/.m2/repository/io/github/bonigarcia/webdrivermanager/5.4.1/webdrivermanager-5.4.1.jar:/Users/ekaterinakislicenko/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/ekaterinakislicenko/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/ekaterinakislicenko/.m2/repository/com/github/docker-java/docker-java/3.3.2/docker-java-3.3.2.jar:/Users/ekaterinakislicenko/.m2/repository/com/github/docker-java/docker-java-core/3.3.2/docker-java-core-3.3.2.jar:/Users/ekaterinakislicenko/.m2/repository/com/github/docker-java/docker-java-api/3.3.2/docker-java-api-3.3.2.jar:/Users/ekaterinakislicenko/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/ekaterinakislicenko/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/ekaterinakislicenko/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/ekaterinakislicenko/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/ekaterinakislicenko/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/ekaterinakislicenko/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/ekaterinakislicenko/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/ekaterinakislicenko/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.2/docker-java-transport-httpclient5-3.3.2.jar:/Users/ekaterinakislicenko/.m2/repository/com/github/docker-java/docker-java-transport/3.3.2/docker-java-transport-3.3.2.jar:/Users/ekaterinakislicenko/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/ekaterinakislicenko/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/ekaterinakislicenko/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/ekaterinakislicenko/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ekaterinakislicenko/.m2/repository/io/qameta/allure/allure-junit4/2.24.0/allure-junit4-2.24.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/qameta/allure/allure-test-filter/2.24.0/allure-test-filter-2.24.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ekaterinakislicenko/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ekaterinakislicenko/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/ekaterinakislicenko/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ekaterinakislicenko/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ekaterinakislicenko/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/ekaterinakislicenko/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/ekaterinakislicenko/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/ekaterinakislicenko/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/ekaterinakislicenko/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/ekaterinakislicenko/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/ekaterinakislicenko/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/ekaterinakislicenko/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/ekaterinakislicenko/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/ekaterinakislicenko/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/ekaterinakislicenko/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/ekaterinakislicenko/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="/Users/ekaterinakislicenko/Diplom/Diplom_3/target/allure-results"/>
+    <property name="user.home" value="/Users/ekaterinakislicenko"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ekaterinakislicenko/Diplom/Diplom_3"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/ekaterinakislicenko/Diplom/Diplom_3/target/surefire/surefirebooter14271285147286864672.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.19+7-LTS"/>
+    <property name="user.name" value="ekaterinakislicenko"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="firefox"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.19.7.1"/>
+    <property name="localRepository" value="/Users/ekaterinakislicenko/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/kd/5mgffgrd3cj79sp9rrdc70kh0000gp/T/"/>
+    <property name="java.version" value="11.0.19"/>
+    <property name="user.dir" value="/Users/ekaterinakislicenko/Diplom/Diplom_3"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/ekaterinakislicenko/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.19+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="goToBreadSectionTest on goToBreadSectionTest(ConstructorWithoutAuthTest)" classname="ConstructorWithoutAuthTest" time="6.929">
+    <failure message="Element &lt;div class=&quot;tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect&quot;&gt; is not clickable at point (320,215) because another element &lt;div class=&quot;Modal_modal_overlay__x2ZCr&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [576403c4-ee48-401e-a534-ac5bf8275d6b, clickElement {id=9c81e98a-1855-48f0-bf75-7edd2d82b60f}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:36137, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21733, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:36137/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on mac (576403c4-ee48-401e-a534-ac5bf8275d6b)] -&gt; xpath: .//section[@class = &apos;BurgerIngredients_ingredients__1N8v2&apos;]/div/div[2]]&#10;Session ID: 576403c4-ee48-401e-a534-ac5bf8275d6b" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <div class="tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect"> is not clickable at point (320,215) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [576403c4-ee48-401e-a534-ac5bf8275d6b, clickElement {id=9c81e98a-1855-48f0-bf75-7edd2d82b60f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:36137, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21733, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:36137/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (576403c4-ee48-401e-a534-ac5bf8275d6b)] -> xpath: .//section[@class = 'BurgerIngredients_ingredients__1N8v2']/div/div[2]]
+Session ID: 576403c4-ee48-401e-a534-ac5bf8275d6b
+	at ConstructorWithoutAuthTest.goToBreadSectionTest(ConstructorWithoutAuthTest.java:18)
+]]></failure>
+    <system-out><![CDATA[Usage: <main class> [options] The XML suite files to run
+  Options:
+    -alwaysrunlisteners
+      Should MethodInvocation Listeners be run even for skipped methods
+      Default: true
+    -configfailurepolicy
+      Configuration failure policy (skip or continue)
+    -d
+      Output directory
+    -dataproviderthreadcount
+      Number of threads to use when running data providers
+    -dependencyinjectorfactory
+      The dependency injector factory implementation that TestNG should use.
+    -excludegroups
+      Comma-separated list of group names to  exclude
+    -failwheneverythingskipped
+      Should TestNG fail execution if all tests were skipped and nothing was 
+      run. 
+      Default: false
+    -generateResultsPerSuite
+      Should TestNG consider failures in Data Providers  as test failures.
+      Default: false
+    -groups
+      Comma-separated list of group names to be run
+    -ignoreMissedTestNames
+      Ignore missed test names given by '-testnames' and continue to run 
+      existing tests, if any.
+      Default: false
+    -includeAllDataDrivenTestsWhenSkipping
+      Should TestNG report all iterations of a data driven test as individual 
+      skips, in-case of upstream failures.
+      Default: false
+    -junit
+      JUnit mode
+      Default: false
+    -listener
+      List of .class files or list of class names implementing ITestListener 
+      or ISuiteListener
+    -methods
+      Comma separated of test methods
+      Default: []
+    -methodselectors
+      List of .class files or list of class names implementing IMethodSelector
+    -mixed
+      Mixed mode - autodetect the type of current test and run it with 
+      appropriate runner
+      Default: false
+    -objectfactory
+      List of .class files or list of class names implementing 
+      ITestRunnerFactory 
+    -overrideincludedmethods
+      Comma separated fully qualified class names of listeners that should be 
+      skipped from being wired in via Service Loaders.
+      Default: false
+    -parallel
+      Parallel mode (methods, tests or classes)
+      Possible Values: [tests, methods, classes, instances, none]
+    -port
+      The port
+    -propagateDataProviderFailureAsTestFailure
+      Should TestNG consider failures in Data Providers  as test failures.
+      Default: false
+    -reporter
+      Extended configuration for custom report listener
+    -spilistenerstoskip
+      Comma separated fully qualified class names of listeners that should be 
+      skipped from being wired in via Service Loaders.
+      Default: <empty string>
+    -suitename
+      Default name of test suite, if not specified in suite definition file or 
+      source code
+    -suitethreadpoolsize
+      Size of the thread pool to use to run suites
+      Default: 1
+    -testclass
+      The list of test classes
+    -testjar
+      A jar file containing the tests
+    -testname
+      Default name of test, if not specified in suitedefinition file or source 
+      code 
+    -testnames
+      The list of test names to run
+    -testrunfactory, -testRunFactory
+      The factory used to create tests
+    -threadcount
+      Number of threads to use when running tests in parallel
+    -threadpoolfactoryclass
+      The threadpool executor factory implementation that TestNG should use.
+    -usedefaultlisteners
+      Whether to use the default listeners
+      Default: true
+    -log, -verbose
+      Level of verbosity
+    -xmlpathinjar
+      The full path to the xml file inside the jar file (only valid if 
+      -testjar was specified)
+      Default: testng.xml
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="goToSauceSectionTest on goToSauceSectionTest(ConstructorWithoutAuthTest)" classname="ConstructorWithoutAuthTest" time="5.007">
+    <failure message="Element &lt;div class=&quot;tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect&quot;&gt; is not clickable at point (320,215) because another element &lt;div class=&quot;Modal_modal_overlay__x2ZCr&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [563abcf3-193e-4754-acee-ce8bd98891f7, clickElement {id=97423fd7-7ca5-4843-be34-5696adcfc4ac}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:12395, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21758, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:12395/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on mac (563abcf3-193e-4754-acee-ce8bd98891f7)] -&gt; xpath: .//section[@class = &apos;BurgerIngredients_ingredients__1N8v2&apos;]/div/div[2]]&#10;Session ID: 563abcf3-193e-4754-acee-ce8bd98891f7" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <div class="tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect"> is not clickable at point (320,215) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [563abcf3-193e-4754-acee-ce8bd98891f7, clickElement {id=97423fd7-7ca5-4843-be34-5696adcfc4ac}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:12395, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21758, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:12395/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (563abcf3-193e-4754-acee-ce8bd98891f7)] -> xpath: .//section[@class = 'BurgerIngredients_ingredients__1N8v2']/div/div[2]]
+Session ID: 563abcf3-193e-4754-acee-ce8bd98891f7
+	at ConstructorWithoutAuthTest.goToSauceSectionTest(ConstructorWithoutAuthTest.java:30)
+]]></failure>
+  </testcase>
+  <testcase name="goToFillingSectionTest on goToFillingSectionTest(ConstructorWithoutAuthTest)" classname="ConstructorWithoutAuthTest" time="3.906">
+    <failure message="Element &lt;div class=&quot;tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect&quot;&gt; is not clickable at point (320,215) because another element &lt;div class=&quot;Modal_modal_overlay__x2ZCr&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [3ea07b6d-090b-4365-b3ca-fad58215303f, clickElement {id=266ca386-82a5-4715-abf6-f567746a6041}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:15762, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21778, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:15762/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on mac (3ea07b6d-090b-4365-b3ca-fad58215303f)] -&gt; xpath: .//section[@class = &apos;BurgerIngredients_ingredients__1N8v2&apos;]/div/div[2]]&#10;Session ID: 3ea07b6d-090b-4365-b3ca-fad58215303f" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <div class="tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect"> is not clickable at point (320,215) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3ea07b6d-090b-4365-b3ca-fad58215303f, clickElement {id=266ca386-82a5-4715-abf6-f567746a6041}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:15762, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21778, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:15762/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (3ea07b6d-090b-4365-b3ca-fad58215303f)] -> xpath: .//section[@class = 'BurgerIngredients_ingredients__1N8v2']/div/div[2]]
+Session ID: 3ea07b6d-090b-4365-b3ca-fad58215303f
+	at ConstructorWithoutAuthTest.goToFillingSectionTest(ConstructorWithoutAuthTest.java:41)
+]]></failure>
+  </testcase>
+  <testcase name="registrationWithShortPasswordTest on registrationWithShortPasswordTest(RegistrationTest)" classname="RegistrationTest" time="12.767"/>
+  <testcase name="successfulRegistrationTest on successfulRegistrationTest(RegistrationTest)" classname="RegistrationTest" time="4.595">
+    <failure message="Element &lt;h2&gt; is not clickable at point (640,309) because another element &lt;div class=&quot;Modal_modal_overlay__x2ZCr&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [a30b6903-5097-4e2f-928d-fee56fe84cab, clickElement {id=d9d57a84-9bbe-452a-ac36-c4b2d9ed44f5}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:40377, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21833, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:40377/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on mac (a30b6903-5097-4e2f-928d-fee56fe84cab)] -&gt; xpath: .//h2[text() = &apos;Регистрация&apos;]]&#10;Session ID: a30b6903-5097-4e2f-928d-fee56fe84cab" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <h2> is not clickable at point (640,309) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a30b6903-5097-4e2f-928d-fee56fe84cab, clickElement {id=d9d57a84-9bbe-452a-ac36-c4b2d9ed44f5}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:40377, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21833, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:40377/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (a30b6903-5097-4e2f-928d-fee56fe84cab)] -> xpath: .//h2[text() = 'Регистрация']]
+Session ID: a30b6903-5097-4e2f-928d-fee56fe84cab
+	at RegistrationTest.registrationAttempt(RegistrationTest.java:45)
+	at RegistrationTest.successfulRegistrationTest(RegistrationTest.java:24)
+]]></failure>
+  </testcase>
+  <testcase name="goToMainPageByLogoButtonTest on goToMainPageByLogoButtonTest(ConstructorWithAuthTest)" classname="ConstructorWithAuthTest" time="5.995">
+    <failure message="Element &lt;a class=&quot;AppHeader_header__link__3D_hX&quot; href=&quot;/account&quot;&gt; is not clickable at point (1176,44) because another element &lt;div class=&quot;Modal_modal_overlay__x2ZCr&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [2e96ae5d-b62e-494f-b40d-e9ccc503c478, clickElement {id=8ee2d553-2709-4d0d-a523-011446373158}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:1265, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21855, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:1265/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on mac (2e96ae5d-b62e-494f-b40d-e9ccc503c478)] -&gt; xpath: .//header/nav/a]&#10;Session ID: 2e96ae5d-b62e-494f-b40d-e9ccc503c478" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="AppHeader_header__link__3D_hX" href="/account"> is not clickable at point (1176,44) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2e96ae5d-b62e-494f-b40d-e9ccc503c478, clickElement {id=8ee2d553-2709-4d0d-a523-011446373158}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:1265, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21855, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:1265/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (2e96ae5d-b62e-494f-b40d-e9ccc503c478)] -> xpath: .//header/nav/a]
+Session ID: 2e96ae5d-b62e-494f-b40d-e9ccc503c478
+	at ConstructorWithAuthTest.enterToPersonalAccount(ConstructorWithAuthTest.java:51)
+	at ConstructorWithAuthTest.goToMainPageByLogoButtonTest(ConstructorWithAuthTest.java:42)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "clement.farrell@hotmail.com",
+    "password": "UserAutotestPassword",
+    "name": "UserAutotestName"
+}
+HTTP/1.1 200 OK
+Date: Tue, 07 Nov 2023 10:51:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmMzOWVkMjgwMDAxYjM3ZDA1YyIsImlhdCI6MTY5OTM1NDMwNywiZXhwIjoxNjk5MzU1NTA3fQ.pHbwHdeFAp5kTKwtWTmiJysED5XGSnsxAKuwtT8Dkcc
+ETag: W/"17e-9ZMBEspcAkShIzZqVeqN3CvFXws"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YIaOp9NSCNU7W17Bolrov1vma1mhs%2FrDXOaAipWBBWhqh1zfLBjfyLGoqmreyxD%2F7xUrbQo7vK2HltEfpAXtPLQkzROBgp80g7Zbr4%2FBknVTDgdqGn0Qjq6FXwKKo6EYI0m8TFk6kBr0BxQzoeQCQ9Tm3eg%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 822505e5bdcf6ad8-LCA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "user": {
+        "email": "clement.farrell@hotmail.com",
+        "name": "UserAutotestName"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmMzOWVkMjgwMDAxYjM3ZDA1YyIsImlhdCI6MTY5OTM1NDMwNywiZXhwIjoxNjk5MzU1NTA3fQ.pHbwHdeFAp5kTKwtWTmiJysED5XGSnsxAKuwtT8Dkcc",
+    "refreshToken": "757de3a59b95c661bce9afe9e826e85099ed9a807391825bc7690874501d9dd483a18018322d473f"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="goToMainPageByConstructorButtonTest on goToMainPageByConstructorButtonTest(ConstructorWithAuthTest)" classname="ConstructorWithAuthTest" time="4.664">
+    <failure message="Element &lt;a class=&quot;AppHeader_header__link__3D_hX&quot; href=&quot;/account&quot;&gt; is not clickable at point (1176,44) because another element &lt;div class=&quot;Modal_modal_overlay__x2ZCr&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [94f98400-2bbd-4001-b597-33499beb94d4, clickElement {id=5b7dfdfb-0a28-4673-9600-29485dec50df}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:37258, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21876, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:37258/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on mac (94f98400-2bbd-4001-b597-33499beb94d4)] -&gt; xpath: .//header/nav/a]&#10;Session ID: 94f98400-2bbd-4001-b597-33499beb94d4" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="AppHeader_header__link__3D_hX" href="/account"> is not clickable at point (1176,44) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [94f98400-2bbd-4001-b597-33499beb94d4, clickElement {id=5b7dfdfb-0a28-4673-9600-29485dec50df}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:37258, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21876, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:37258/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (94f98400-2bbd-4001-b597-33499beb94d4)] -> xpath: .//header/nav/a]
+Session ID: 94f98400-2bbd-4001-b597-33499beb94d4
+	at ConstructorWithAuthTest.enterToPersonalAccount(ConstructorWithAuthTest.java:51)
+	at ConstructorWithAuthTest.goToMainPageByConstructorButtonTest(ConstructorWithAuthTest.java:26)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "douglas.ondricka@gmail.com",
+    "password": "UserAutotestPassword",
+    "name": "UserAutotestName"
+}
+HTTP/1.1 200 OK
+Date: Tue, 07 Nov 2023 10:51:52 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmM4OWVkMjgwMDAxYjM3ZDA1ZiIsImlhdCI6MTY5OTM1NDMxMiwiZXhwIjoxNjk5MzU1NTEyfQ.IIbzyGiVIOtSVmcNVcblUU98ezwFQLYzU04RirmaZwc
+ETag: W/"17d-1kY91pkRMaR0z/haTOkWrWDBcSE"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3SbiIu%2BFkMtiy5432Yv0LMT6j4UPgQr2yPUzVWCtFPzvpXekr1mqMpuYrY7Wmt54X%2FcEmoR6zv6%2Falhy6VV9lWrwCTczm1%2Bmf5N5hO7nOERs9deOut9MoVZisuLnfjNOHthwCzAWgvTfAel2ZpYzp9zGstw%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 822506043f006adb-LCA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "user": {
+        "email": "douglas.ondricka@gmail.com",
+        "name": "UserAutotestName"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmM4OWVkMjgwMDAxYjM3ZDA1ZiIsImlhdCI6MTY5OTM1NDMxMiwiZXhwIjoxNjk5MzU1NTEyfQ.IIbzyGiVIOtSVmcNVcblUU98ezwFQLYzU04RirmaZwc",
+    "refreshToken": "32035f03601244309b32ceae1b435fb628e919b5c8a5f5eb3116ff62e60353a50e297a051179d1c1"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="loginFromPasswordRecoveryPageTest on loginFromPasswordRecoveryPageTest(LoginTest)" classname="LoginTest" time="3.99">
+    <failure message="Element &lt;a class=&quot;Auth_link__1fOlj&quot; href=&quot;/login&quot;&gt; is not clickable at point (726,581) because another element &lt;div class=&quot;Modal_modal_overlay__x2ZCr&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [7983aefb-4297-4e45-9dfb-bad4abc66472, clickElement {id=0485ac85-2f0a-4dee-8f81-0a8484f2d8ae}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:36487, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21896, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:36487/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on mac (7983aefb-4297-4e45-9dfb-bad4abc66472)] -&gt; xpath: .//a[@href=&apos;/login&apos;]]&#10;Session ID: 7983aefb-4297-4e45-9dfb-bad4abc66472" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="Auth_link__1fOlj" href="/login"> is not clickable at point (726,581) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7983aefb-4297-4e45-9dfb-bad4abc66472, clickElement {id=0485ac85-2f0a-4dee-8f81-0a8484f2d8ae}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:36487, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21896, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:36487/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (7983aefb-4297-4e45-9dfb-bad4abc66472)] -> xpath: .//a[@href='/login']]
+Session ID: 7983aefb-4297-4e45-9dfb-bad4abc66472
+	at LoginTest.loginFromPasswordRecoveryPageTest(LoginTest.java:61)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "teddy.ferry@gmail.com",
+    "password": "UserAutotestPassword",
+    "name": "UserAutotestName"
+}
+HTTP/1.1 200 OK
+Date: Tue, 07 Nov 2023 10:51:57 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmNkOWVkMjgwMDAxYjM3ZDA2MiIsImlhdCI6MTY5OTM1NDMxNywiZXhwIjoxNjk5MzU1NTE3fQ.KAtsrQz-gvuJZPg-4i2o3Ltic_lhpyEeN3zZouBsOcY
+ETag: W/"178-KMpdoMKmkmchD1L3hJHXtQEL0A8"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9BEpNa9uaABD%2FZvkdYKnBOKn0FFvCxgQTZ%2FON5l0TvFg4NQ4oG34VUfBFk9n%2F4PjJxFVTs7HOU8ABuTIXCQORm6OtAJgqYq0yXMTfJnnBcWf1Vuf8ZxuGYDvi6K5YQd%2B7gFV2TtCB1GApuiWcLVASU%2BGda8%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 822506217ecd6adb-LCA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "user": {
+        "email": "teddy.ferry@gmail.com",
+        "name": "UserAutotestName"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmNkOWVkMjgwMDAxYjM3ZDA2MiIsImlhdCI6MTY5OTM1NDMxNywiZXhwIjoxNjk5MzU1NTE3fQ.KAtsrQz-gvuJZPg-4i2o3Ltic_lhpyEeN3zZouBsOcY",
+    "refreshToken": "18ee6ad0b720f7928d1c5c02230393ce41b75de874d6742abd52f8b468e2dd4aebd47aed8f158576"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="loginFromPersonalAccountPageTest on loginFromPersonalAccountPageTest(LoginTest)" classname="LoginTest" time="4.526">
+    <failure message="Element &lt;a class=&quot;AppHeader_header__link__3D_hX&quot; href=&quot;/account&quot;&gt; is not clickable at point (1176,44) because another element &lt;div class=&quot;Modal_modal_overlay__x2ZCr&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [1462d3b4-c949-4fde-b360-b1f31e3258d9, clickElement {id=994acab1-82dc-4fc2-a572-a71605758c20}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:27713, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21916, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:27713/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on mac (1462d3b4-c949-4fde-b360-b1f31e3258d9)] -&gt; xpath: .//header/nav/a]&#10;Session ID: 1462d3b4-c949-4fde-b360-b1f31e3258d9" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="AppHeader_header__link__3D_hX" href="/account"> is not clickable at point (1176,44) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1462d3b4-c949-4fde-b360-b1f31e3258d9, clickElement {id=994acab1-82dc-4fc2-a572-a71605758c20}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:27713, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21916, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:27713/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (1462d3b4-c949-4fde-b360-b1f31e3258d9)] -> xpath: .//header/nav/a]
+Session ID: 1462d3b4-c949-4fde-b360-b1f31e3258d9
+	at LoginTest.loginFromPersonalAccountPageTest(LoginTest.java:35)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "wilfredo.grimes@hotmail.com",
+    "password": "UserAutotestPassword",
+    "name": "UserAutotestName"
+}
+HTTP/1.1 200 OK
+Date: Tue, 07 Nov 2023 10:52:01 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmQxOWVkMjgwMDAxYjM3ZDA2NCIsImlhdCI6MTY5OTM1NDMyMSwiZXhwIjoxNjk5MzU1NTIxfQ.FqZo_HA_CII_4iWoumHQHgsBCk6nzRcjNp16IM727aA
+ETag: W/"17e-EwQmXamijegoj6kiiG/dDo1nDbU"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=u3TOHJzeSVmgdUi99dgkyQcur%2FBpaxNrBnt99qkEq4H9gJadxrUopXsJTCee7mcocfoh4US9OpE2Wg2NeeeTB%2BnEUkaUTG3aWfyQfngj7GJjlZioPleRtbHHaQTfDDidzff3A94LZzIq5wNxxMI6GYP9Oc0%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8225063adf4d6ad7-LCA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "user": {
+        "email": "wilfredo.grimes@hotmail.com",
+        "name": "UserAutotestName"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmQxOWVkMjgwMDAxYjM3ZDA2NCIsImlhdCI6MTY5OTM1NDMyMSwiZXhwIjoxNjk5MzU1NTIxfQ.FqZo_HA_CII_4iWoumHQHgsBCk6nzRcjNp16IM727aA",
+    "refreshToken": "89632af58767bc65747ad41f1a3566cc9286c8607877f33a7ba2cb75439403a1922c237f9b52ca4e"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="loginFromMainPageTest on loginFromMainPageTest(LoginTest)" classname="LoginTest" time="5.69">
+    <failure message="Element &lt;button class=&quot;button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg&quot;&gt; is not clickable at point (1148,440) because another element &lt;div class=&quot;Modal_modal_overlay__x2ZCr&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [34a0cc1d-05f7-467e-a7aa-c0381c9c4816, clickElement {id=457876a4-8528-4309-8290-21c4450a5c58}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:30760, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21934, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:30760/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on mac (34a0cc1d-05f7-467e-a7aa-c0381c9c4816)] -&gt; xpath: .//button[text() =&apos;Войти в аккаунт&apos;]]&#10;Session ID: 34a0cc1d-05f7-467e-a7aa-c0381c9c4816" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg"> is not clickable at point (1148,440) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [34a0cc1d-05f7-467e-a7aa-c0381c9c4816, clickElement {id=457876a4-8528-4309-8290-21c4450a5c58}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:30760, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21934, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:30760/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (34a0cc1d-05f7-467e-a7aa-c0381c9c4816)] -> xpath: .//button[text() ='Войти в аккаунт']]
+Session ID: 34a0cc1d-05f7-467e-a7aa-c0381c9c4816
+	at LoginTest.loginFromMainPageTest(LoginTest.java:21)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "dora.schulist@yahoo.com",
+    "password": "UserAutotestPassword",
+    "name": "UserAutotestName"
+}
+HTTP/1.1 200 OK
+Date: Tue, 07 Nov 2023 10:52:05 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmQ1OWVkMjgwMDAxYjM3ZDA2NiIsImlhdCI6MTY5OTM1NDMyNSwiZXhwIjoxNjk5MzU1NTI1fQ.YOpaWYhpWGRdSyfsdFTeX32UyNC6-AVdNQAMMI1Oyr4
+ETag: W/"17a-HxhwlhvLA30t8QMbrNMGSRsHQVQ"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1LLzQSOsZl0NTWbwuECtVVUAup%2FeyTTRFU83%2BO7cTkSEmwXBAhZyRejZW9IFzcjwMsa3vXmowAkScYoC6C8I4cEpkNE61c2s0Lxc2wOVngF1e%2Bc57%2Bh8zPsDznDIWi4bmDEZpgK6MxJ50bV7tg6NnIj%2BVOk%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 82250656c9b16ad9-LCA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "user": {
+        "email": "dora.schulist@yahoo.com",
+        "name": "UserAutotestName"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmQ1OWVkMjgwMDAxYjM3ZDA2NiIsImlhdCI6MTY5OTM1NDMyNSwiZXhwIjoxNjk5MzU1NTI1fQ.YOpaWYhpWGRdSyfsdFTeX32UyNC6-AVdNQAMMI1Oyr4",
+    "refreshToken": "5c19499b24acb7b7f3c29d260ea711afbd1e8cbc731f8434afcb16e7c7370f84d5563afa128936ca"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="loginFromRegistrationPageTest on loginFromRegistrationPageTest(LoginTest)" classname="LoginTest" time="8.512">
+    <failure message="Element &lt;a class=&quot;Auth_link__1fOlj&quot; href=&quot;/login&quot;&gt; is not clickable at point (745,608) because another element &lt;div class=&quot;Modal_modal_overlay__x2ZCr&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [a65cf447-647a-4fe3-b937-c4223b5200c9, clickElement {id=06c0c52e-19ba-4ab0-89e6-0991b6439cc7}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:38562, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21957, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:38562/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on mac (a65cf447-647a-4fe3-b937-c4223b5200c9)] -&gt; xpath: .//a[@href=&apos;/login&apos;]]&#10;Session ID: a65cf447-647a-4fe3-b937-c4223b5200c9" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="Auth_link__1fOlj" href="/login"> is not clickable at point (745,608) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a65cf447-647a-4fe3-b937-c4223b5200c9, clickElement {id=06c0c52e-19ba-4ab0-89e6-0991b6439cc7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:38562, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21957, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:38562/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (a65cf447-647a-4fe3-b937-c4223b5200c9)] -> xpath: .//a[@href='/login']]
+Session ID: a65cf447-647a-4fe3-b937-c4223b5200c9
+	at LoginTest.loginFromRegistrationPageTest(LoginTest.java:48)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "spencer.prohaska@yahoo.com",
+    "password": "UserAutotestPassword",
+    "name": "UserAutotestName"
+}
+HTTP/1.1 200 OK
+Date: Tue, 07 Nov 2023 10:52:11 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmRiOWVkMjgwMDAxYjM3ZDA2OCIsImlhdCI6MTY5OTM1NDMzMSwiZXhwIjoxNjk5MzU1NTMxfQ.B6OMp8wfilw-6z4DV5ZhhEEaEfmJ-wQAjYBptQEHGjU
+ETag: W/"17d-ECcUGK7ziiK9i8Q2QNkzU2QMRPw"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SwcHLtI1PUS4M2SrWKcGhtDaW3gUD2NbVm%2BrlnJVRbJCwokZFCLBYmUMhl1k4U0DA4J8nLbIwTjLty99usECQOsR0fqW2Db0IY0Su5tvs5a0fT7054GkCy3UhtPxMkzPrUvxYyXd09s9pD5g3KTWPZCwHhM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 822506799ab96ada-LCA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "user": {
+        "email": "spencer.prohaska@yahoo.com",
+        "name": "UserAutotestName"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmRiOWVkMjgwMDAxYjM3ZDA2OCIsImlhdCI6MTY5OTM1NDMzMSwiZXhwIjoxNjk5MzU1NTMxfQ.B6OMp8wfilw-6z4DV5ZhhEEaEfmJ-wQAjYBptQEHGjU",
+    "refreshToken": "eada2fbdbfed5470689a02106b1273856bb4cbff987a82bec83d2784c4b3da48edeacd09f242855b"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="enterToPersonalAccountTest on enterToPersonalAccountTest(PersonalAccountTest)" classname="PersonalAccountTest" time="5.71">
+    <failure message="Element &lt;button class=&quot;button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa&quot;&gt; is not clickable at point (640,549) because another element &lt;div class=&quot;Modal_modal_overlay__x2ZCr&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [dee2bb1e-bebe-43ee-8b4f-be48bff6b953, clickElement {id=4c5ef5a3-6c47-43a4-b200-7545cef30616}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:47687, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21988, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:47687/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on mac (dee2bb1e-bebe-43ee-8b4f-be48bff6b953)] -&gt; xpath: .//button[text() = &apos;Войти&apos;]]&#10;Session ID: dee2bb1e-bebe-43ee-8b4f-be48bff6b953" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa"> is not clickable at point (640,549) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [dee2bb1e-bebe-43ee-8b4f-be48bff6b953, clickElement {id=4c5ef5a3-6c47-43a4-b200-7545cef30616}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:47687, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21988, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:47687/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (dee2bb1e-bebe-43ee-8b4f-be48bff6b953)] -> xpath: .//button[text() = 'Войти']]
+Session ID: dee2bb1e-bebe-43ee-8b4f-be48bff6b953
+	at PersonalAccountTest.enterToPersonalAccountTest(PersonalAccountTest.java:24)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "cristina.reilly@yahoo.com",
+    "password": "UserAutotestPassword",
+    "name": "UserAutotestName"
+}
+HTTP/1.1 200 OK
+Date: Tue, 07 Nov 2023 10:52:20 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmUzOWVkMjgwMDAxYjM3ZDA2YSIsImlhdCI6MTY5OTM1NDMzOSwiZXhwIjoxNjk5MzU1NTM5fQ.HLuaUVZnHQ303laIv8iQge2kzwQVGtUOZlaytsuxdi4
+ETag: W/"17c-nBhsKZ1f1AA4TIfVioiJV9z8H/k"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RRVx5OUNLfNO3skY%2FYhMOiNFQUznLgl1vfNr%2FZ6pRlmHu%2B43O%2BFaGtUuZpBbi6a8DANyH41bBtbfrUFvPs%2BvUifyiDXxv%2BxCluzvfJ0r%2BvoHMT7aTRGX5K8Nd9XTYfo9ZgElf9QVjzWWxZqf7mITP3utJC4%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 822506b03ec86ad8-LCA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "user": {
+        "email": "cristina.reilly@yahoo.com",
+        "name": "UserAutotestName"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmUzOWVkMjgwMDAxYjM3ZDA2YSIsImlhdCI6MTY5OTM1NDMzOSwiZXhwIjoxNjk5MzU1NTM5fQ.HLuaUVZnHQ303laIv8iQge2kzwQVGtUOZlaytsuxdi4",
+    "refreshToken": "55359cb7cfe634bcc1fd9af37a5e08ebc9d1254d6e33212f5861c71f2f6111fbefb9b6704058327f"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="exitAccountByProfileButtonInHeaderTest on exitAccountByProfileButtonInHeaderTest(PersonalAccountTest)" classname="PersonalAccountTest" time="5.177">
+    <failure message="Element &lt;button class=&quot;button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa&quot;&gt; is not clickable at point (640,549) because another element &lt;div class=&quot;Modal_modal_overlay__x2ZCr&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [8e231dfe-bf49-40f5-8916-e91e04413f84, clickElement {id=42ff5772-9220-4775-a6c0-6b2790af3eb7}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:2100, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 22017, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:2100/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on mac (8e231dfe-bf49-40f5-8916-e91e04413f84)] -&gt; xpath: .//button[text() = &apos;Войти&apos;]]&#10;Session ID: 8e231dfe-bf49-40f5-8916-e91e04413f84" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa"> is not clickable at point (640,549) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8e231dfe-bf49-40f5-8916-e91e04413f84, clickElement {id=42ff5772-9220-4775-a6c0-6b2790af3eb7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:2100, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 22017, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:2100/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (8e231dfe-bf49-40f5-8916-e91e04413f84)] -> xpath: .//button[text() = 'Войти']]
+Session ID: 8e231dfe-bf49-40f5-8916-e91e04413f84
+	at PersonalAccountTest.exitAccountByProfileButtonInHeaderTest(PersonalAccountTest.java:54)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "gilberto.flatley@yahoo.com",
+    "password": "UserAutotestPassword",
+    "name": "UserAutotestName"
+}
+HTTP/1.1 200 OK
+Date: Tue, 07 Nov 2023 10:52:25 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmU5OWVkMjgwMDAxYjM3ZDA2YyIsImlhdCI6MTY5OTM1NDM0NSwiZXhwIjoxNjk5MzU1NTQ1fQ.Tbso3dSd-2nNX9bG6sr76ubSe829TcdZhXry-OZPAqk
+ETag: W/"17d-2Vq0fPPYApXYmjXYphRSEc7chKQ"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wgpvyF8VfrX4AqqtOBYkJ7%2BkCodAUytphOZ3atk37%2B2GIUzHSrJPgNTq49wQZSLzMMwNTczxgZio%2BRsDq679ZSC%2BY%2BsPnlkBAWWnAxgnp4SEO6coSDy9KsJnHDceObfKi7P6dNfUZfrmgxL4lN9X%2FwH2jtk%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 822506d2ddf86ad7-LCA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "user": {
+        "email": "gilberto.flatley@yahoo.com",
+        "name": "UserAutotestName"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmU5OWVkMjgwMDAxYjM3ZDA2YyIsImlhdCI6MTY5OTM1NDM0NSwiZXhwIjoxNjk5MzU1NTQ1fQ.Tbso3dSd-2nNX9bG6sr76ubSe829TcdZhXry-OZPAqk",
+    "refreshToken": "09d9e5c83c848611553ea8fb7795b6bfb8e7849f612f551e02e86f43d230a6ad486253b290f8ee1a"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="exitAccountByProfileURLTest on exitAccountByProfileURLTest(PersonalAccountTest)" classname="PersonalAccountTest" time="5.027">
+    <failure message="Element &lt;button class=&quot;button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa&quot;&gt; is not clickable at point (640,549) because another element &lt;div class=&quot;Modal_modal_overlay__x2ZCr&quot;&gt; obscures it&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.1&apos;, java.version: &apos;11.0.19&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [3ab46e40-9e6c-4c13-807c-0fc6b0846095, clickElement {id=2a485ebe-dec1-4504-be87-dfaf41946e82}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:26861, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 22039, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:26861/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Element: [[FirefoxDriver: firefox on mac (3ab46e40-9e6c-4c13-807c-0fc6b0846095)] -&gt; xpath: .//button[text() = &apos;Войти&apos;]]&#10;Session ID: 3ab46e40-9e6c-4c13-807c-0fc6b0846095" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa"> is not clickable at point (640,549) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3ab46e40-9e6c-4c13-807c-0fc6b0846095, clickElement {id=2a485ebe-dec1-4504-be87-dfaf41946e82}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:26861, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 22039, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:26861/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (3ab46e40-9e6c-4c13-807c-0fc6b0846095)] -> xpath: .//button[text() = 'Войти']]
+Session ID: 3ab46e40-9e6c-4c13-807c-0fc6b0846095
+	at PersonalAccountTest.exitAccountByProfileURLTest(PersonalAccountTest.java:38)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "reginald.hettinger@hotmail.com",
+    "password": "UserAutotestPassword",
+    "name": "UserAutotestName"
+}
+HTTP/1.1 200 OK
+Date: Tue, 07 Nov 2023 10:52:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmVlOWVkMjgwMDAxYjM3ZDA2ZSIsImlhdCI6MTY5OTM1NDM1MCwiZXhwIjoxNjk5MzU1NTUwfQ.ZduFX5y1j0-iRgKJC2pusV1eKZO8smHr-gQBMRC2Fs4
+ETag: W/"181-oxxoCqQ3xQ+9S4jYaxOT3zgXYfw"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3PDBDT99%2FBO8wESsSmhc%2FoO%2FpWkg1AYEdSUiXARj7JuSBzy6OwUvXB356Urt%2F8uksmXnkiNs9aLmUsxCGkmtaQosV0csO05D5pNy7Vv%2FYeUYp4mpQBMBvSUfcILqJMj2Sif%2BNFneSL7Ac1tzLtaOxRlJsIk%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 822506f2f8a16ad8-LCA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "success": true,
+    "user": {
+        "email": "reginald.hettinger@hotmail.com",
+        "name": "UserAutotestName"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGExNmVlOWVkMjgwMDAxYjM3ZDA2ZSIsImlhdCI6MTY5OTM1NDM1MCwiZXhwIjoxNjk5MzU1NTUwfQ.ZduFX5y1j0-iRgKJC2pusV1eKZO8smHr-gQBMRC2Fs4",
+    "refreshToken": "4a1ccc8edd76bf9b10075f8fee65e1e3741711baba506132aec87ba4f70e9987380858672d9ed06d"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,163 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 84.422 s <<< FAILURE! - in TestSuite
+goToBreadSectionTest on goToBreadSectionTest(ConstructorWithoutAuthTest)(ConstructorWithoutAuthTest)  Time elapsed: 6.929 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <div class="tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect"> is not clickable at point (320,215) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [576403c4-ee48-401e-a534-ac5bf8275d6b, clickElement {id=9c81e98a-1855-48f0-bf75-7edd2d82b60f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:36137, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21733, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:36137/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (576403c4-ee48-401e-a534-ac5bf8275d6b)] -> xpath: .//section[@class = 'BurgerIngredients_ingredients__1N8v2']/div/div[2]]
+Session ID: 576403c4-ee48-401e-a534-ac5bf8275d6b
+	at ConstructorWithoutAuthTest.goToBreadSectionTest(ConstructorWithoutAuthTest.java:18)
+
+goToSauceSectionTest on goToSauceSectionTest(ConstructorWithoutAuthTest)(ConstructorWithoutAuthTest)  Time elapsed: 5.007 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <div class="tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect"> is not clickable at point (320,215) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [563abcf3-193e-4754-acee-ce8bd98891f7, clickElement {id=97423fd7-7ca5-4843-be34-5696adcfc4ac}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:12395, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21758, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:12395/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (563abcf3-193e-4754-acee-ce8bd98891f7)] -> xpath: .//section[@class = 'BurgerIngredients_ingredients__1N8v2']/div/div[2]]
+Session ID: 563abcf3-193e-4754-acee-ce8bd98891f7
+	at ConstructorWithoutAuthTest.goToSauceSectionTest(ConstructorWithoutAuthTest.java:30)
+
+goToFillingSectionTest on goToFillingSectionTest(ConstructorWithoutAuthTest)(ConstructorWithoutAuthTest)  Time elapsed: 3.906 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <div class="tab_tab__1SPyG  pt-4 pr-10 pb-4 pl-10 noselect"> is not clickable at point (320,215) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3ea07b6d-090b-4365-b3ca-fad58215303f, clickElement {id=266ca386-82a5-4715-abf6-f567746a6041}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:15762, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21778, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:15762/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (3ea07b6d-090b-4365-b3ca-fad58215303f)] -> xpath: .//section[@class = 'BurgerIngredients_ingredients__1N8v2']/div/div[2]]
+Session ID: 3ea07b6d-090b-4365-b3ca-fad58215303f
+	at ConstructorWithoutAuthTest.goToFillingSectionTest(ConstructorWithoutAuthTest.java:41)
+
+successfulRegistrationTest on successfulRegistrationTest(RegistrationTest)(RegistrationTest)  Time elapsed: 4.595 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <h2> is not clickable at point (640,309) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a30b6903-5097-4e2f-928d-fee56fe84cab, clickElement {id=d9d57a84-9bbe-452a-ac36-c4b2d9ed44f5}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:40377, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21833, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:40377/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (a30b6903-5097-4e2f-928d-fee56fe84cab)] -> xpath: .//h2[text() = 'Регистрация']]
+Session ID: a30b6903-5097-4e2f-928d-fee56fe84cab
+	at RegistrationTest.registrationAttempt(RegistrationTest.java:45)
+	at RegistrationTest.successfulRegistrationTest(RegistrationTest.java:24)
+
+goToMainPageByLogoButtonTest on goToMainPageByLogoButtonTest(ConstructorWithAuthTest)(ConstructorWithAuthTest)  Time elapsed: 5.995 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="AppHeader_header__link__3D_hX" href="/account"> is not clickable at point (1176,44) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2e96ae5d-b62e-494f-b40d-e9ccc503c478, clickElement {id=8ee2d553-2709-4d0d-a523-011446373158}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:1265, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21855, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:1265/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (2e96ae5d-b62e-494f-b40d-e9ccc503c478)] -> xpath: .//header/nav/a]
+Session ID: 2e96ae5d-b62e-494f-b40d-e9ccc503c478
+	at ConstructorWithAuthTest.enterToPersonalAccount(ConstructorWithAuthTest.java:51)
+	at ConstructorWithAuthTest.goToMainPageByLogoButtonTest(ConstructorWithAuthTest.java:42)
+
+goToMainPageByConstructorButtonTest on goToMainPageByConstructorButtonTest(ConstructorWithAuthTest)(ConstructorWithAuthTest)  Time elapsed: 4.664 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="AppHeader_header__link__3D_hX" href="/account"> is not clickable at point (1176,44) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [94f98400-2bbd-4001-b597-33499beb94d4, clickElement {id=5b7dfdfb-0a28-4673-9600-29485dec50df}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:37258, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21876, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:37258/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (94f98400-2bbd-4001-b597-33499beb94d4)] -> xpath: .//header/nav/a]
+Session ID: 94f98400-2bbd-4001-b597-33499beb94d4
+	at ConstructorWithAuthTest.enterToPersonalAccount(ConstructorWithAuthTest.java:51)
+	at ConstructorWithAuthTest.goToMainPageByConstructorButtonTest(ConstructorWithAuthTest.java:26)
+
+loginFromPasswordRecoveryPageTest on loginFromPasswordRecoveryPageTest(LoginTest)(LoginTest)  Time elapsed: 3.99 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="Auth_link__1fOlj" href="/login"> is not clickable at point (726,581) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7983aefb-4297-4e45-9dfb-bad4abc66472, clickElement {id=0485ac85-2f0a-4dee-8f81-0a8484f2d8ae}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:36487, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21896, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:36487/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (7983aefb-4297-4e45-9dfb-bad4abc66472)] -> xpath: .//a[@href='/login']]
+Session ID: 7983aefb-4297-4e45-9dfb-bad4abc66472
+	at LoginTest.loginFromPasswordRecoveryPageTest(LoginTest.java:61)
+
+loginFromPersonalAccountPageTest on loginFromPersonalAccountPageTest(LoginTest)(LoginTest)  Time elapsed: 4.526 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="AppHeader_header__link__3D_hX" href="/account"> is not clickable at point (1176,44) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1462d3b4-c949-4fde-b360-b1f31e3258d9, clickElement {id=994acab1-82dc-4fc2-a572-a71605758c20}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:27713, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21916, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:27713/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (1462d3b4-c949-4fde-b360-b1f31e3258d9)] -> xpath: .//header/nav/a]
+Session ID: 1462d3b4-c949-4fde-b360-b1f31e3258d9
+	at LoginTest.loginFromPersonalAccountPageTest(LoginTest.java:35)
+
+loginFromMainPageTest on loginFromMainPageTest(LoginTest)(LoginTest)  Time elapsed: 5.69 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg"> is not clickable at point (1148,440) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [34a0cc1d-05f7-467e-a7aa-c0381c9c4816, clickElement {id=457876a4-8528-4309-8290-21c4450a5c58}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:30760, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21934, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:30760/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (34a0cc1d-05f7-467e-a7aa-c0381c9c4816)] -> xpath: .//button[text() ='Войти в аккаунт']]
+Session ID: 34a0cc1d-05f7-467e-a7aa-c0381c9c4816
+	at LoginTest.loginFromMainPageTest(LoginTest.java:21)
+
+loginFromRegistrationPageTest on loginFromRegistrationPageTest(LoginTest)(LoginTest)  Time elapsed: 8.512 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="Auth_link__1fOlj" href="/login"> is not clickable at point (745,608) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a65cf447-647a-4fe3-b937-c4223b5200c9, clickElement {id=06c0c52e-19ba-4ab0-89e6-0991b6439cc7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:38562, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21957, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:38562/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (a65cf447-647a-4fe3-b937-c4223b5200c9)] -> xpath: .//a[@href='/login']]
+Session ID: a65cf447-647a-4fe3-b937-c4223b5200c9
+	at LoginTest.loginFromRegistrationPageTest(LoginTest.java:48)
+
+enterToPersonalAccountTest on enterToPersonalAccountTest(PersonalAccountTest)(PersonalAccountTest)  Time elapsed: 5.71 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa"> is not clickable at point (640,549) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [dee2bb1e-bebe-43ee-8b4f-be48bff6b953, clickElement {id=4c5ef5a3-6c47-43a4-b200-7545cef30616}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:47687, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 21988, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:47687/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (dee2bb1e-bebe-43ee-8b4f-be48bff6b953)] -> xpath: .//button[text() = 'Войти']]
+Session ID: dee2bb1e-bebe-43ee-8b4f-be48bff6b953
+	at PersonalAccountTest.enterToPersonalAccountTest(PersonalAccountTest.java:24)
+
+exitAccountByProfileButtonInHeaderTest on exitAccountByProfileButtonInHeaderTest(PersonalAccountTest)(PersonalAccountTest)  Time elapsed: 5.177 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa"> is not clickable at point (640,549) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8e231dfe-bf49-40f5-8916-e91e04413f84, clickElement {id=42ff5772-9220-4775-a6c0-6b2790af3eb7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:2100, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 22017, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:2100/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (8e231dfe-bf49-40f5-8916-e91e04413f84)] -> xpath: .//button[text() = 'Войти']]
+Session ID: 8e231dfe-bf49-40f5-8916-e91e04413f84
+	at PersonalAccountTest.exitAccountByProfileButtonInHeaderTest(PersonalAccountTest.java:54)
+
+exitAccountByProfileURLTest on exitAccountByProfileURLTest(PersonalAccountTest)(PersonalAccountTest)  Time elapsed: 5.027 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <button class="button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa"> is not clickable at point (640,549) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3ab46e40-9e6c-4c13-807c-0fc6b0846095, clickElement {id=2a485ebe-dec1-4504-be87-dfaf41946e82}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:debuggerAddress: 127.0.0.1:26861, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.2.0, moz:processID: 22039, moz:profile: /var/folders/kd/5mgffgrd3cj..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:26861/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on mac (3ab46e40-9e6c-4c13-807c-0fc6b0846095)] -> xpath: .//button[text() = 'Войти']]
+Session ID: 3ab46e40-9e6c-4c13-807c-0fc6b0846095
+	at PersonalAccountTest.exitAccountByProfileURLTest(PersonalAccountTest.java:38)
+

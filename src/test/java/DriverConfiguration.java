@@ -17,6 +17,9 @@ public class DriverConfiguration extends ExternalResource {
 
     @Override
     protected void before() throws Throwable {
+        //в настройке запуска задаем параметры конфигураций
+        //-Dbrowser=yandex (для браузера)
+        //-Dconfig=path_for_drivers.properties (для файла откуда брать пути, хранящие бинарники драйвера и браузера)
         ClassLoader classloader = Thread.currentThread().getContextClassLoader();
         InputStream is = classloader.getResourceAsStream(System.getProperty("config"));
         property.load(is);

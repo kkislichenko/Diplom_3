@@ -6,14 +6,20 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.GeckoDriverService;
-import page.object.EnvoirmentConfiguration;
 
 import java.io.File;
+import java.io.InputStream;
+import java.util.Properties;
 
 public class DriverConfiguration extends ExternalResource {
     private WebDriver driver;
+    Properties property = new Properties();
+
     @Override
     protected void before() throws Throwable {
+        ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+        InputStream is = classloader.getResourceAsStream(System.getProperty("config"));
+        property.load(is);
         System.setProperty("webdriver.http.factory", "jdk-http-client");
         if ("firefox".equals(System.getProperty("browser"))) {
             setUpFirefox();
@@ -35,31 +41,31 @@ public class DriverConfiguration extends ExternalResource {
 
     public void setUpChrome() {
         ChromeDriverService service = new ChromeDriverService.Builder()
-                .usingDriverExecutable(new File(EnvoirmentConfiguration.CHROME_DRIVER))
+                .usingDriverExecutable(new File(property.getProperty("webdriver.chrome.driver")))
                 .build();
         ChromeOptions options = new ChromeOptions()
-                .setBinary(EnvoirmentConfiguration.CHROME_BINARY);
+                .setBinary(property.getProperty("webdriver.chrome.binary"));
 
         driver = new ChromeDriver(service, options);
     }
 
     public void setUpYandex() {
         ChromeDriverService service = new ChromeDriverService.Builder()
-                .usingDriverExecutable(new File(EnvoirmentConfiguration.YANDEX_DRIVER))
+                .usingDriverExecutable(new File(property.getProperty("webdriver.yandex.driver")))
                 .build();
         ChromeOptions options = new ChromeOptions()
-                .setBinary(EnvoirmentConfiguration.YANDEX_BINARY);
+                .setBinary(property.getProperty("webdriver.yandex.binary"));
 
         driver = new ChromeDriver(service, options);
     }
 
     public void setUpFirefox() {
         var service = new GeckoDriverService.Builder()
-                .usingDriverExecutable(new File(EnvoirmentConfiguration.FIREFOX_DRIVER))
+                .usingDriverExecutable(new File(property.getProperty("webdriver.gecko.driver")))
                 .build();
 
         var options = new FirefoxOptions()
-                .setBinary(EnvoirmentConfiguration.FIREFOX_BINARY);
+                .setBinary(property.getProperty("webdriver.gecko.binary"));
 
         driver = new FirefoxDriver(service, options);
     }

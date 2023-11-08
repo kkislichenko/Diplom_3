@@ -12,6 +12,7 @@ public class ConstructorPage {
     private static final By BREAD_SECTION = By.xpath(".//section[@class = 'BurgerIngredients_ingredients__1N8v2']/div/div[1]");
     private static final By SOUSE_SECTION = By.xpath(".//section[@class = 'BurgerIngredients_ingredients__1N8v2']/div/div[2]");
     private static final By FILLING_SECTION = By.xpath(".//section[@class = 'BurgerIngredients_ingredients__1N8v2']/div/div[3]");
+    private static final By FILLING_HEADER = By.xpath(".//h2[text() = 'Начинки']");
     private static final By ENTER_BUTTON = By.xpath(".//button[text() ='Войти в аккаунт']");
     private static final By CREATE_ORDER_BUTTON = By.xpath(".//button[text() ='Оформить заказ']");
 
@@ -52,5 +53,13 @@ public class ConstructorPage {
     public void waitForFillingSectionBecomeCurrent() {
         new WebDriverWait(driver, Duration.ofSeconds(EnvoirmentConfiguration.DEFAULT_TIMEOUT))
                 .until(ExpectedConditions.attributeContains(FILLING_SECTION, "class", "current"));
+    }
+
+    //ожидание сдвига элемента при скролле блока
+    public void waitForScrollToFillingSection() {
+        new WebDriverWait(driver, Duration.ofSeconds(EnvoirmentConfiguration.DEFAULT_TIMEOUT))
+                .until(driver -> {
+                    return driver.findElement(FILLING_HEADER).getRect().x < 300;
+                });
     }
 }
